@@ -1,0 +1,20 @@
+name: macOS build
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  compile:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install build dependencies
+        run: brew install cmake qt
+      - name: Check resource tool syntax
+        run: python3 -m py_compile tools/rom_reader.py tools/prepare_resources.py
+      - name: Configure a bare bundle
+        run: cmake -S . -B build -DCMAKE_PREFIX_PATH="$(brew --prefix qt)"
+      - name: Compile
+        run: cmake --build build --parallel

@@ -1,0 +1,471 @@
+[
+  {
+    "trainer_id": 156,
+    "name": "Cheren",
+    "type": "Normal",
+    "place": "Aspertia City",
+    "team": [
+      {
+        "species_id": 504,
+        "level": 11,
+        "types": [
+          0,
+          0
+        ]
+      },
+      {
+        "species_id": 506,
+        "level": 13,
+        "types": [
+          0,
+          0
+        ]
+      }
+    ],
+    "cap": 13
+  },
+  {
+    "trainer_id": 157,
+    "name": "Roxie",
+    "type": "Poison",
+    "place": "Virbank City",
+    "team": [
+      {
+        "species_id": 109,
+        "level": 16,
+        "types": [
+          3,
+          3
+        ]
+      },
+      {
+        "species_id": 544,
+        "level": 18,
+        "types": [
+          6,
+          3
+        ]
+      }
+    ],
+    "cap": 18
+  },
+  {
+    "trainer_id": 154,
+    "name": "Burgh",
+    "type": "Bug",
+    "place": "Castelia City",
+    "team": [
+      {
+        "species_id": 541,
+        "level": 22,
+        "types": [
+          6,
+          11
+        ]
+      },
+      {
+        "species_id": 557,
+        "level": 22,
+        "types": [
+          6,
+          5
+        ]
+      },
+      {
+        "species_id": 542,
+        "level": 24,
+        "types": [
+          6,
+          11
+        ]
+      }
+    ],
+    "cap": 24
+  },
+  {
+    "trainer_id": 153,
+    "name": "Elesa",
+    "type": "Electric",
+    "place": "Nimbasa City",
+    "team": [
+      {
+        "species_id": 587,
+        "level": 28,
+        "types": [
+          12,
+          2
+        ]
+      },
+      {
+        "species_id": 180,
+        "level": 28,
+        "types": [
+          12,
+          12
+        ]
+      },
+      {
+        "species_id": 523,
+        "level": 30,
+        "types": [
+          12,
+          12
+        ]
+      }
+    ],
+    "cap": 30
+  },
+  {
+    "trainer_id": 158,
+    "name": "Clay",
+    "type": "Ground",
+    "place": "Driftveil City",
+    "team": [
+      {
+        "species_id": 552,
+        "level": 31,
+        "types": [
+          4,
+          16
+        ]
+      },
+      {
+        "species_id": 28,
+        "level": 31,
+        "types": [
+          4,
+          4
+        ]
+      },
+      {
+        "species_id": 530,
+        "level": 33,
+        "types": [
+          4,
+          8
+        ]
+      }
+    ],
+    "cap": 33
+  },
+  {
+    "trainer_id": 155,
+    "name": "Skyla",
+    "type": "Flying",
+    "place": "Mistralton City",
+    "team": [
+      {
+        "species_id": 528,
+        "level": 37,
+        "types": [
+          13,
+          2
+        ]
+      },
+      {
+        "species_id": 227,
+        "level": 37,
+        "types": [
+          8,
+          2
+        ]
+      },
+      {
+        "species_id": 581,
+        "level": 39,
+        "types": [
+          10,
+          2
+        ]
+      }
+    ],
+    "cap": 39
+  },
+  {
+    "trainer_id": 159,
+    "name": "Drayden",
+    "type": "Dragon",
+    "place": "Opelucid City",
+    "team": [
+      {
+        "species_id": 621,
+        "level": 46,
+        "types": [
+          15,
+          15
+        ]
+      },
+      {
+        "species_id": 330,
+        "level": 46,
+        "types": [
+          4,
+          15
+        ]
+      },
+      {
+        "species_id": 612,
+        "level": 48,
+        "types": [
+          15,
+          15
+        ]
+      }
+    ],
+    "cap": 48
+  },
+  {
+    "trainer_id": 160,
+    "name": "Marlon",
+    "type": "Water",
+    "place": "Humilau City",
+    "team": [
+      {
+        "species_id": 565,
+        "level": 49,
+        "types": [
+          10,
+          5
+        ]
+      },
+      {
+        "species_id": 321,
+        "level": 49,
+        "types": [
+          10,
+          10
+        ]
+      },
+      {
+        "species_id": 593,
+        "level": 51,
+        "types": [
+          10,
+          7
+        ]
+      }
+    ],
+    "cap": 51
+  },
+  {
+    "trainer_id": 38,
+    "name": "Shauntal",
+    "type": "Ghost",
+    "place": "Pokémon League",
+    "team": [
+      {
+        "species_id": 563,
+        "level": 56,
+        "types": [
+          7,
+          7
+        ]
+      },
+      {
+        "species_id": 426,
+        "level": 56,
+        "types": [
+          7,
+          2
+        ]
+      },
+      {
+        "species_id": 623,
+        "level": 56,
+        "types": [
+          4,
+          7
+        ]
+      },
+      {
+        "species_id": 609,
+        "level": 58,
+        "types": [
+          7,
+          9
+        ]
+      }
+    ],
+    "cap": 58
+  },
+  {
+    "trainer_id": 39,
+    "name": "Marshal",
+    "type": "Fighting",
+    "place": "Pokémon League",
+    "team": [
+      {
+        "species_id": 538,
+        "level": 56,
+        "types": [
+          1,
+          1
+        ]
+      },
+      {
+        "species_id": 539,
+        "level": 56,
+        "types": [
+          1,
+          1
+        ]
+      },
+      {
+        "species_id": 620,
+        "level": 56,
+        "types": [
+          1,
+          1
+        ]
+      },
+      {
+        "species_id": 534,
+        "level": 58,
+        "types": [
+          1,
+          1
+        ]
+      }
+    ],
+    "cap": 58
+  },
+  {
+    "trainer_id": 40,
+    "name": "Grimsley",
+    "type": "Dark",
+    "place": "Pokémon League",
+    "team": [
+      {
+        "species_id": 510,
+        "level": 56,
+        "types": [
+          16,
+          16
+        ]
+      },
+      {
+        "species_id": 560,
+        "level": 56,
+        "types": [
+          16,
+          1
+        ]
+      },
+      {
+        "species_id": 553,
+        "level": 56,
+        "types": [
+          4,
+          16
+        ]
+      },
+      {
+        "species_id": 625,
+        "level": 58,
+        "types": [
+          16,
+          8
+        ]
+      }
+    ],
+    "cap": 58
+  },
+  {
+    "trainer_id": 41,
+    "name": "Caitlin",
+    "type": "Psychic",
+    "place": "Pokémon League",
+    "team": [
+      {
+        "species_id": 518,
+        "level": 56,
+        "types": [
+          13,
+          13
+        ]
+      },
+      {
+        "species_id": 579,
+        "level": 56,
+        "types": [
+          13,
+          13
+        ]
+      },
+      {
+        "species_id": 561,
+        "level": 56,
+        "types": [
+          13,
+          2
+        ]
+      },
+      {
+        "species_id": 576,
+        "level": 58,
+        "types": [
+          13,
+          13
+        ]
+      }
+    ],
+    "cap": 58
+  },
+  {
+    "trainer_id": 341,
+    "name": "Iris",
+    "type": "Dragon",
+    "place": "Pokémon League",
+    "team": [
+      {
+        "species_id": 635,
+        "level": 57,
+        "types": [
+          16,
+          15
+        ]
+      },
+      {
+        "species_id": 621,
+        "level": 57,
+        "types": [
+          15,
+          15
+        ]
+      },
+      {
+        "species_id": 567,
+        "level": 57,
+        "types": [
+          5,
+          2
+        ]
+      },
+      {
+        "species_id": 306,
+        "level": 57,
+        "types": [
+          8,
+          5
+        ]
+      },
+      {
+        "species_id": 131,
+        "level": 57,
+        "types": [
+          10,
+          14
+        ]
+      },
+      {
+        "species_id": 612,
+        "level": 59,
+        "types": [
+          15,
+          15
+        ]
+      }
+    ],
+    "cap": 59
+  }
+]
