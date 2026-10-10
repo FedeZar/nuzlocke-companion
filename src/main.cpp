@@ -54,7 +54,7 @@ static std::array<QRect,4> areas(QRect game,bool forceFullscreen=false){
 int main(int argc,char**argv){
  QApplication::setAttribute(Qt::AA_DontUseNativeDialogs);QApplication app(argc,argv);app.setOrganizationName("NuzlockeCompanion");app.setApplicationName("Nuzlocke Companion");app.setQuitOnLastWindowClosed(true);
  app.setStyleSheet("QWidget {font-family:Monaco; font-size:12px; color:#e6edf4;} QDialog,QMessageBox,QWidget#companionControl {background:#182a3d; color:#e6edf4;} QLabel,QCheckBox {color:#e6edf4;} QTextBrowser {background:#213d52; color:#e6edf4; border:3px double #bdcbd6; border-radius:0px;} QComboBox,QKeySequenceEdit {background:#294c65; color:#f4f4ef; border:2px solid #93a9b7; padding:6px;} QPushButton {background:#294c65; color:#f4f4ef; border:3px double #c4d0d8; border-radius:0px; padding:7px;} QPushButton:hover {border-color:#ffb24a; background:#385c72;} QPushButton:pressed {background:#18334c;} ");
- emuDirectory=QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);QDir().mkpath(emuDirectory);
+ emuDirectory=QStandardPaths::writableLocation(QStandardPaths::GenericDataLocation)+"/NuzlockeCompanion/Nuzlocke Companion";QDir().mkpath(emuDirectory);
  resourceDirectory=QDir(QCoreApplication::applicationDirPath()+"/../Resources/nuzlocke").absolutePath();
  if(argc==4&&QString::fromUtf8(argv[1])=="--render-preview"){
   QTemporaryDir temporary;emuDirectory=temporary.path();QFile ram(QString::fromUtf8(argv[2]));if(!ram.open(QIODevice::ReadOnly))return 2;Nuzlocke::AcceptRAM(ram.readAll(),false);
